@@ -1,0 +1,165 @@
+* {
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  --ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+
+html {
+  background-color: #b46700;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, p {
+  color: #8d8881;
+}
+
+
+
+.header__main {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px inset rgba(0, 0, 0, 0.26);
+  background-image: url("images/sunset-60pc_medium_2x.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-right: 1em;
+}
+
+
+.header__logo {
+  display: none;
+  width: 20%;
+  height: 100%;
+}
+
+.header__logo img {
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #e1cbad;
+  max-width: 100%;
+  max-height: 100%
+}
+
+.header__text {
+  text-align: center;
+  width: 80%;
+}
+
+.header__text h1 {
+  font-size: 2.5em;
+  margin-bottom: 0px;
+}
+
+.header__text p {
+  font-size: 1em;
+  margin-top: 0px;
+  font-weight: 100;
+}
+
+
+
+.middle__main {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: none;
+}
+
+.featured__main {
+  width: 100%
+}
+
+.featured_main_title {
+  border-bottom: 2px inset rgba(0, 0, 0, 0.26);
+  padding-bottom: 0px;
+}
+
+
+.featured__place {
+  width: 100%;
+}
+
+.featured__features {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.featured__text {
+  color: black;
+  font-size: 1.2em;
+}
+
+
+
+
+
+.featured__title {
+  margin-top: 0px;
+}
+
+
+
+
+@media screen and (min-width: 300px) {
+  .header__logo {
+    display: block;
+  }
+
+  .header__text {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header__main {
+    background-image: url("images/sunset-80pc_large_1x.jpg");
+  }
+
+  .featured__place {
+    width: calc( (100% - 2em) / 3 ); 
+  }
+
+  .featured__left {
+    margin-right: 1em;
+  }
+
+  .featured__right {
+    margin-left: 1em;
+  }
+
+  .middle__main {
+    display: block;
+  }
+
+  .featured__text {
+    font-size: 0.8em;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+
+  .header__main {
+    background-image: url("images/sunset-100pc_large_2x.jpg");
+  }
+
+  body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+

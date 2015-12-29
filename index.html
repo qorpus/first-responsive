@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Udacity Responsive Images course project" >
+  		<meta name="author" content="dave.ellery">
+  		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+  		<title>Daves trip to Morocco!</title>
+
+  		<link rel="stylesheet" type="text/css" href="main.css">
+  		<link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<header class="header__main">
+			<div class="header__logo">
+				 <picture>
+	      			<source media="(min-width: 800px)"
+				    	srcset="images/face-80pc_large_1x.jpg 1x, images/face-100pc_large_2x.jpg 2x"
+				    />
+				    <source media="(min-width: 500px)"
+				        srcset="images/face-40pc_medium_1x.jpg 1x, images/face-60pc_medium_2x.jpg 2x"
+				    />
+				    <img src="images/face-20pc_small_1x.jpg" alt="Daves smiling face, somewhere in Morocco">
+				</picture>
+			</div>
+			<div class="header__text">
+				<h1>Dave Ellery</h1>
+				<p>Rocking the Kasbah!</p>
+			</div>
+		</header>
+		<div class="middle__main" >
+			<picture>
+	      		<source media="(min-width: 800px)"
+				    srcset="images/kasbah-80pc_large_1x.jpg 1x, images/kasbah-100pc_large_2x.jpg 2x"
+				/>
+				<source media="(min-width: 500px)"
+				    srcset="images/kasbah-40pc_medium_1x.jpg 1x, images/kasbah-60pc_medium_2x.jpg 2x"
+				/>
+				<img src="images/kasbah-20pc_small_1x.jpg" alt="Kasbah Ben Haddou, in western Morocco">
+			</picture>
+		</div>
+		<div class="featured__main" >
+			<h2 class="featured_main_title" >Places I visited in Morocco!</h2>
+			<div class="featured__features" >
+				<div class="featured__place  featured__left" >
+					<picture>
+						<source media="(min-width: 800px)"
+						    srcset="images/tangier-40pc_medium_1x.jpg 1x"
+						/>
+						<img src="images/tangier-20pc_small_1x.jpg" alt="View from the Phonecean grave sight overlooking the port in Tangier">
+					</picture>
+					<h2 class="featured__title" >Tangier</h2>
+					<p class="featured__text">Always of huge strategic importance at the entrance to the Mediterranean, Tangier is the enthralling gateway to Africa, a tantalising introduction to a culture vastly different from that across the Strait of Gibraltar.</p>
+				</div>
+				<div class="featured__place featured__middle" >
+					<picture>
+						<source media="(min-width: 800px)"
+						    srcset="images/marrakesh-40pc_medium_1x.jpg 1x"
+						/>
+						<img src="images/marrakesh-20pc_small_1x.jpg" alt="Interior of the Marrakesh Grand Palace">
+					</picture>
+					<h2 class="featured__title" >Marrakesh</h2>
+					<p class="featured__text">From the moment you arrive in Marrakesh, you'll get the distinct feeling you've left something behind - a toothbrush or socks, maybe? But no, what you'll be missing in Marrakesh is predictability and all sense of direction. Never mind: you're better off without them here. Start at action-packed Djemaa el-Fna and head north into Marrakesh's maze of souqs, where Berber tribes once traded slaves, gold, ivory and leather, and where modern tourists scour people-packed alleys for carpet bargains and babouches. If you look carefully, you'll also spot a number of creative new boutiques and galleries. They signify the evolving face of the medina as a new generation of craftsmen and artists try to connect the city's hankering for modernity with its traditional craft heritage.</p>
+				</div>
+				<div class="featured__place featured__right" >
+					<picture>
+						<source media="(min-width: 800px)"
+						    srcset="images/casablanca-60pc_medium_2x.jpg 1x"
+						/>
+						<img src="images/casablanca-40pc_medium_1x.jpg" alt="The big mosque in Casablanca">
+					</picture>
+					<h2 class="featured__title" >Casablanca</h2>
+					<p class="featured__text">Many travellers stay in Casablanca just long enough to change planes or catch a train, but the sprawling metropolis deserves more time. It may not be as exotic as other Moroccan cities, but it is the country's economical and cultural capital, and it represents Morocco on the move: Casablanca is where the money is being made, where the industry is, where art galleries show the best contemporary art and where fashion designers have a window on the world. The old pirate lair is looking towards the future, showing off its wealth and achievements.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
