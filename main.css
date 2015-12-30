@@ -1,9 +1,9 @@
 * {
-  --webkit-box-sizing: border-box;
-  --moz-box-sizing: border-box;
-  --ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: "La Belle Aurore", cursive;
 }
 
 
@@ -15,7 +15,11 @@ img {
   max-width: 100%;
 }
 
-h1, p {
+h1 {
+  color: #8d8881;
+}
+
+p {
   color: #8d8881;
 }
 
